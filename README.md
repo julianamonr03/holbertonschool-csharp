@@ -13,7 +13,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to use VSCode and the integrated terminal to initialize, build, and run C# projects
 - How to print text and variables using Console.Write
 
-# Requirments
+# Requirements
 
 - Allowed editors: Visual Studio Code
 - All files will be compiled on Ubuntu 14.04 LTS using dotnet

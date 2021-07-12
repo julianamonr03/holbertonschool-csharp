@@ -2,7 +2,7 @@
 
 ------
 
-# Requirments
+# Requirements
 
 - Allowed editors: Visual Studio Code
 - All files will be compiled on Ubuntu 14.04 LTS using dotnet

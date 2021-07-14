@@ -14,7 +14,7 @@ namespace _5_print_comb
                 }
                 else if (i == 99)
                 {
-                    Console.Write("{0}", i);
+                    Console.WriteLine("{0}", i);
                 }
             }
         }

@@ -15,11 +15,11 @@ namespace _100_jagged_arrayay
 
             for (int i = 0; i < jagged_array.Length; i++)
             {
-                for (int j = 0; j < jagged_array[i].Length; j++)
+                for (int j = 0; j < jagged_array[i].Length - 1; j++)
                 {
                     System.Console.Write("{0} ", jagged_array[i][j]);
                 }
-                Console.WriteLine("");
+                Console.WriteLine(jagged_array[i][jagged_array[i].Length - 1]);
             }
         }
     }

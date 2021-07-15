@@ -19,8 +19,7 @@ namespace _100_jagged_arrayay
                 {
                     System.Console.Write("{0} ", jagged_array[i][j]);
                 }
-
-                System.Console.WriteLine("");
+                Console.WriteLine("");
             }
         }
     }

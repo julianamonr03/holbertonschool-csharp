@@ -10,7 +10,10 @@ using System.Collections.Generic;
             {
                 Console.WriteLine("Stack is empty");
             }
+            else
+            {
             Console.WriteLine("Top item: {0}", aStack.Peek());
+            }
 
             bool answer = aStack.Contains(search);
 
@@ -25,7 +28,7 @@ using System.Collections.Generic;
             }
             else
             {
-                Console.WriteLine("Stack contains {0}: {1}", search, answer);
+                Console.WriteLine("Stack contains \"{0}\": {1}", search, answer);
             }
             aStack.Push(newItem);
             return (aStack);

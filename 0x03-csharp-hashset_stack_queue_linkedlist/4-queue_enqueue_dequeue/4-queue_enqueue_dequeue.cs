@@ -7,11 +7,13 @@ using System.Collections.Generic;
         {
             Console.WriteLine("Number of items: {0}", aQueue.Count);
 
-            Console.WriteLine("First item: {0}", aQueue.Peek());
-
             if (aQueue.Count <= 0)
             {
                 Console.WriteLine("Queue is empty");
+            }
+            else
+            {
+                Console.WriteLine("First item: {0}", aQueue.Peek());
             }
 
             aQueue.Enqueue(newItem);
@@ -25,6 +27,10 @@ using System.Collections.Generic;
                 {
                     aQueue.Dequeue();
                 }
+            }
+            else
+            {
+                Console.WriteLine("Queue contains \"{0}\": {1}", search, answer);
             }
             return (aQueue);
         }

@@ -6,7 +6,7 @@ using System.Linq;
     {
         public static int GetNode(LinkedList<int> myLList, int n)
         {
-            if (myLList.Contains(n) == true)
+            if (n >= myLList.Count || n < 0)
             {
                 return (0);
             }

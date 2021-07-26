@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Bash script initializes, builds, and runs a new C# project from a folder
+dotnet new console -o 0-safe_list_print
+dotnet build 0-safe_list_print
+dotnet run --project 0-safe_list_print

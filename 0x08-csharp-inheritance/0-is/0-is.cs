@@ -1,16 +1,11 @@
 ﻿using System;
 
+    /// <summary> Public class Obj </summary>
     class Obj
     {
+        /// <summary> Public Function for get Type of obj </summary>
         public static bool IsOfTypeInt(object obj)
         {
-            if (obj is int)
-            {
-                return (true);
-            }
-            else
-            {
-                return (false);
-            }
+            return (obj.GetType() == typeof(int));
         }
     }

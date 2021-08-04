@@ -77,6 +77,7 @@
                 Width = value;
             }
         }
+        // <summary> Public override to string format </summary>
         public override string ToString()
         {
             return (string.Format("[Square] {0} / {1}", Width, Height));

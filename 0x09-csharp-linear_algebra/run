@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Bash script initializes, builds, and runs a new C# project from a folder
+dotnet new console -o 30-cross_product
+dotnet build 30-cross_product
+dotnet run --project 30-cross_product

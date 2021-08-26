@@ -13,7 +13,7 @@
             int rows = matrix.GetLength(0);
             int columns = matrix.GetLength(1);
 
-            if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
+            if (rows == 2 && columns == 2)
             {
                 if (direction == 'x')
                 {
